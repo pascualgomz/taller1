@@ -1,0 +1,24 @@
+Steps to run program:
+
+1. Clone repository: 
+git clone https://github.com/username/project-name.git
+
+2. Create a virtual environment: 
+python -m venv env
+
+3. Activate virtual environment: 
+Linux: source env/bin/activate
+Windows: env\Scripts\activate
+
+5. Install required dependencies: 
+pip install -r requirements.txt
+
+6. Run database migrations: 
+python manage.py makemigrations
+python manage.py migrate
+
+7. Seed the database:
+python manage.py seed_users
+
+8. Start the server: 
+python manage.py runserver
